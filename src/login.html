@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+ 
+  <script src="jquery.js"></script>
+</head>
+<body class="bg-gray-100">
+    <div class="flex min-h-screen">
+        <!-- Left Section -->
+        <div class="w-1/2 bg-purple-600 flex items-center justify-center">
+            <h1 class="text-white text-5xl">آرسیا</h1>
+        </div>
+        <!-- Right Section -->
+        <div dir="rtl" class="flex-grow flex items-center justify-center">
+            <div class="w-full max-w-md p-8  rounded">
+                <h2 class="text-purple-500 text-3xl mb-4">خوش برگشتید</h2>
+                <p class="mb-6">ایمیل و رمز خود را وارد کنید تا وارد حساب شوید</p>
+                <form>
+                    <div  class="mb-4">
+                        <label dir="ltr" for="email" class="block text-gray-700">Email</label>
+                        <input dir="rtl"  id="email" type="email" class="w-full h-[60px] px-3 py-2 border shadow-inner  border-gray-300 rounded-lg" placeholder="آدرس ایمیل شما">
+                    </div>
+                    <div dir="ltr" class="mb-4">
+                        <label dir="ltr" for="password" class="block text-gray-700">password</label>
+                        <input dir="rtl" id="password" type="password" class="w-full h-[60px] px-3 py-2 shadow-inner  border border-gray-300 rounded-lg" placeholder="رمز شما">
+                    </div>
+                    <div  class="flex items-center mb-4">
+                        <style>
+                            /* Custom styles for the toggle switch */
+                            .toggle-checkbox:checked + .toggle-label .toggle-ball {
+                                transform: translateX(100%);
+                                background-color: #ffffff; /* White color for the ball */
+                            }
+                            .toggle-checkbox:checked + .toggle-label {
+                                background-color: #8a2be2; /* Purple color for the background */
+                            }
+                            .toggle-ball {
+                                transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+                            }
+                        </style>
+                    </head>
+                    <body class="flex items-center justify-center min-h-screen bg-gray-100">
+                        <label for="toggle-switch" class="flex items-center cursor-pointer">
+                            <!-- Toggle switch background -->
+                            <div class="relative">
+                                <input type="checkbox" id="toggle-switch" class="sr-only toggle-checkbox">
+                                <div class="block bg-gray-600 w-14 h-8 rounded-full toggle-label"></div>
+                                <!-- Toggle switch handle -->
+                                <div class="dot absolute left-1 top-1 bg-white w-6 h-6 rounded-full toggle-ball"></div>
+                            </div>
+                        </label>
+                        <label for="remember" class="text-gray-700">مرا بخاطر داشته باش</label>
+                    </div>
+                    <button type="submit" class="w-full bg-purple-500 text-white py-2 h-[40px] rounded">ورود</button>
+                </form>
+                <div class="mt-4 text-center">
+                    <a href="/src/Register.html" class="text-purple-500">حساب ندارید؟ ثبت نام</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+   
+    <script>
+        // Add event listener to toggle the switch
+        document.getElementById('toggle-switch').addEventListener('change', function (e) {
+            const dot = e.target.nextElementSibling.nextElementSibling;
+            if (e.target.checked) {
+                dot.classList.add('translate-x-6');
+
+            } else {
+                dot.classList.remove('translate-x-6');
+
+            }
+        });
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>

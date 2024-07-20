@@ -1,0 +1,268 @@
+@font-face{
+    font-family: myFirstFont;
+    src: url(/assets/font/IRANSansWeb.ttf);
+    }
+    
+    div{
+    font-family: myFirstFont;
+    }
+    #DivSl{
+        justify-content: center;
+        margin-top: 1.5%;
+    }
+        /* Mask group */
+      /* CSS Code */
+      .swiper-wrapper {
+        width: 100%;
+        height: max-content !important;
+        padding-bottom: 64px !important;
+        -webkit-transition-timing-function: linear !important;
+        transition-timing-function: linear !important;
+        position: relative;
+        }
+        .swiper-pagination-current {
+        color: #111827 !important;
+        }
+        .swiper-pagination-total {
+        color: #9CA3AF;
+        }
+body{
+ 
+}
+#RotSl-1{
+height: 3rem;
+width: 3rem;
+transform: rotate(180deg);
+cursor: pointer;
+}
+#RotSl-2{
+  height: 3rem;
+  width: 3rem;
+  transform: rotate(180deg);
+  cursor: pointer;
+}
+#RotSl-3{
+  height: 3rem;
+  width: 3rem;
+  transform: rotate(180deg);
+  cursor: pointer;
+  }
+#RotSl-4{
+height: 3rem;
+width: 3rem;
+transform: rotate(180deg);
+cursor: pointer;
+}
+#RotSl-5{
+height: 3rem;
+width: 3rem;
+transform: rotate(180deg);
+cursor: pointer;
+}
+#RotSl-6{
+height: 3rem;
+width: 3rem;
+transform: rotate(180deg);
+cursor: pointer;
+}
+
+#Rezome-1{
+  
+  overflow: hidden;
+}
+#Rezome-2{
+  display: none;
+  overflow: hidden;
+}
+#Rezome-3{
+  display: none;
+  overflow: hidden;
+}
+#Rezome-4{
+  display: none;
+  overflow: hidden;
+}
+#Rezome-5{
+  display: none;
+  overflow: hidden;
+}
+#Rezome-6{
+  display: none;
+  overflow: hidden;
+}
+
+
+
+
+.slider {
+  width: 720px;
+  height: 400px;
+  overflow: hidden;
+  margin: 0 auto;
+  text-align: center;
+
+  .slides {
+      display: block;
+      width: 6000px;
+      height: 400px;
+      margin: 0;
+      padding: 0;
+
+      .slide {
+          float: left;
+          list-style-type: none;
+          width: 720px;
+          height: 400px;
+
+          img {
+              width: 100%;
+              height: 100%;
+          }
+      }
+  }
+}
+#Sl-1{
+
+}
+#Sl-2{
+display: none;
+}
+#Sl-3{
+display: none;
+}
+#Sl-4{
+display: none;
+}
+#Sl-5{
+  display: none;
+  }
+  #Sl-6{
+    display: none;
+    }
+    
+  
+
+#MasterSlid {
+  width: 100%;
+  height: 100%;
+}
+#MasterSlid ul {
+  width: 100%;
+  height: 100%;
+}
+#Pk-1{
+background-color: purple;
+width: 1.5rem;
+height: 1.5rem;
+}
+#Pk-2{
+  background-color: lightgray;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+#Pk-3{
+  background-color: lightgray;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+#Pk-4{
+background-color: lightgray;
+width: 1.5rem;
+height: 1.5rem;
+}
+#Pk-5{
+  background-color: lightgray;
+  width: 1.5rem;
+  height: 1.5rem;
+  }
+  @media only screen and (max-width: 750px) {
+    #slp{
+      margin-top: -10%;
+    }
+    #Divs{
+      height: 50px;
+    }
+  }
+  #Picup{
+    margin-top: 5%;
+  }
+ 
+
+  @media only screen and (max-width:  1281px) {
+    #Picup{
+      margin-top: 0;
+    }
+}
+#MenuBR{
+  position: relative;
+  cursor: pointer;
+}
+#MenuBar{
+  
+  background-color:white;
+    height: 34rem;
+    width: 15em;
+    right: 0;
+    top: 0;
+    display: none;
+    position: absolute;
+    z-index: 92;
+    border: solid #BD00FF 1px ;
+    border-bottom-left-radius: 5px;
+    box-shadow:  -2px 0px 20px 0px black;
+    transition: 1s;
+    text-align: center;
+}
+#MenuBar ul li a{
+color:black;
+}
+#MenuBar ul li {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  }
+  #MenuBar ul{
+    margin-top: 5rem;
+    }
+#SetPs1{
+  height: 1.2rem;
+  width: 1.2rem;
+}
+#SetPs2{
+  height: 1.2rem;
+  width: 1.2rem;
+}
+
+
+
+    @media only screen and (max-width:  768px) {
+      #Pk-1{
+        height: 1.2rem;
+        width: 1.2rem;
+      }
+      #Pk-2{
+        height: 1.2rem;
+        width: 1.2rem;
+      }
+      #Pk-3{
+        height: 1.2rem;
+        width: 1.2rem;
+      }
+      #Pk-4{
+        height: 1.2rem;
+        width: 1.2rem;
+      }
+      #Pk-5{
+        height: 1.2rem;
+        width: 1.2rem;
+      }
+      #SetPs1{
+        height: 1rem;
+        width: 1rem;
+      }
+      #SetPs2{
+        height: 1rem;
+        width: 1rem;
+      }
+     
+  }
+  

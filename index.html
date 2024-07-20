@@ -1,0 +1,962 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="src/output.css" rel="stylesheet">
+  <link href="src/style.css" rel="stylesheet">
+  <script src="src/jquery.js"></script>
+</head>
+<body>
+    <nav dir="" style="background: linear-gradient(180deg, #BD00FF 0%, #4A00A8 4000%);
+" class="bg-white border-gray-200  ">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        
+            <span  class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">آکادمی آرسیا</span>
+        </a>
+        <div   class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+            <button  type="button" class="text-black  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center bg-white dark:bg-white"><a href="/src/login.html"> ورود</a></button>
+            <div data-collapse-toggle="navbar-cta" style="position: relative;"  class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-cta" aria-expanded="false">
+              <span class="sr-only">Open main menu</span>
+
+
+              
+
+
+              
+              <svg id="MenuBR" style="z-index: 93;" width="39" height="24" viewBox="0 0 39 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="7" y="9" width="32" height="6" rx="3" fill="black"/>
+                <rect y="18" width="39" height="6" rx="3" fill="black"/>
+                <rect x="10" width="29" height="6" rx="3" fill="black"/>
+                </svg>
+                
+            </div>
+            <div id="MenuBar">
+                <ul>
+                    <li><a href="#">صفحه اصلی</a></li>
+                    <li><a href="#">دوره ها</a></li>
+                    <li><a href="#">قوانین</a></li>
+                    <li><a href="#">اساتید</a></li>
+                    <li><a href="#">درباره ما</a></li>
+                </ul>
+              </div>
+
+
+            
+            
+        </div>
+        <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
+          <ul  style="background: linear-gradient(180deg, #BD00FF 0%, #4A00A8 4000%);    margin: 7% 0 7% 0;"; class="flex flex-col font-medium p-4 md:p-0 mt-4 border rounded-lg  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 ">
+
+            
+            <li>
+                <a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"> صفحه اصلی</a>
+            </li>
+            <li>
+              <a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">دوره ها</a>
+            </li>
+            <li>
+              <a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">قوانین</a>
+            </li>
+            <li>
+              <a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">اساتید</a>
+            </li>
+            <li>
+                <a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">درباره ما</a>
+              </li>
+          </ul>
+        </div>
+        </div>
+      </nav>
+      <div>
+    
+     
+      <img class="  w-screen" src="/assets/images/header.png" alt="" style="position: relative; z-index: 0;">
+    </div>
+    <!-- Component: Card Slider -->
+<div id="slp" class="relative w-full overflow-hidden bg-white rounded shadow-slate-200 glide-06" style="z-index: 90; position: absolute;width: 87%;
+      
+top: 21%;
+left: 7%;
+border-radius: 25px ">
+
+
+
+
+
+    <!-- Slides -->
+    <div class="overflow-hidden" data-glide-el="track" id="MasterSlid" >
+        <ul>
+            <li><img src="/assets/images/Mask group(9).png" class="w-full max-w-full max-h-full m-auto" id="Sl-1" /></li>
+            <li><img src="/assets/images/Mask group(9).png" class="w-full max-w-full max-h-full m-auto" id="Sl-2"/></li>
+            <li><img src="/assets/images/Mask group(9).png" class="w-full max-w-full max-h-full m-auto" id="Sl-3"/></li>
+            <li><img src="/assets/images/Mask group(9).png" class="w-full max-w-full max-h-full m-auto" id="Sl-4"/></li>
+            <li><img src="/assets/images/Mask group(9).png" class="w-full max-w-full max-h-full m-auto" id="Sl-5"/></li>
+            <li><img src="/assets/images/Mask group(9).png" class="w-full max-w-full max-h-full m-auto" id="Sl-6"/></li>
+            
+        </ul>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- Controls -->
+    <div id="DivSl" class="flex items-center space-x-4" data-glide-el="controls"  >
+        <button  class="p-2 bg-gray-200 rounded-full focus:outline-none" data-glide-dir="<" aria-label="prev slide" id="Back">
+            <svg id="SetPs1" class=" text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+            </svg>
+          </button>
+
+
+          <div  class="flex space-x-2" ; id="SetPs">
+            <div class="  rounded-full" id="Pk-1"></div>
+            <div class="rounded-full" id="Pk-2"></div>
+            <div class="  rounded-full" id="Pk-3"></div>
+            <div class="  rounded-full" id="Pk-4"></div>
+            <div class=" rounded-full" id="Pk-5"></div>
+          </div>
+
+
+          <button class="p-2 bg-gray-200 rounded-full focus:outline-none" data-glide-dir=">" aria-label="next slide" id="Next">
+            <svg id="SetPs2" class=" text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+            </svg>
+          </button>
+    </div>
+    <!-- Indicators -->
+   
+</div>
+
+
+    
+      
+    
+  <div style="margin-top: 3%;" class="w-full md:w-[90%] lg:pl-32">
+
+      <h2  style="margin-top: 13%;" class="text-xl lg:text-xl text-center md:text-right text-black leading-tight font-bold">
+        دسترسی سریع
+      </h2>
+      </div>
+
+
+  <div style="margin-left: 3%;" class="p-1 flex flex-wrap items-center justify-center">
+
+    <div  class="bg-violet-100 flex-shrink-0 m-6 relative overflow-hidden rounded-lg max-w-xs shadow-lg group w-52 h-52">
+       
+        <div class="relative pt-10 px-10 flex items-center justify-center group-hover:scale-110 transition-transform">
+            <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3">
+            </div>
+            <img class="relative w-20" src="../assets/images/icons8-about-us-50 1.png" alt="">
+        </div>
+        <div class="relative text-black px-6 pb-6 mt-6">
+            <div class="flex justify-between">
+                <span class="block font-semibold text-xl justify-center mx-auto">درباره ما </span>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div  class="bg-violet-100 flex-shrink-0 m-6 relative overflow-hidden rounded-lg max-w-xs shadow-lg group w-52 h-52">
+       
+      <div class="relative pt-10 px-10 flex items-center justify-center group-hover:scale-110 transition-transform">
+          <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3">
+          </div>
+          <img class="relative w-20" src="../assets/images/icons8-open-book-100 1.png" alt="">
+      </div>
+      <div class="relative text-black px-6 pb-6 mt-6">
+          <div class="flex justify-between">
+              <span class="block font-semibold text-xl justify-center mx-auto"> دوره ها </span>
+          </div>
+      </div>
+  </div>
+
+
+
+
+  <div  class="bg-violet-100 flex-shrink-0 m-6 relative overflow-hidden rounded-lg max-w-xs shadow-lg group w-52 h-52">
+       
+    <div class="relative pt-10 px-10 flex items-center justify-center group-hover:scale-110 transition-transform">
+        <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3">
+        </div>
+        <img class="relative w-20" src="../assets/images/Vector Smart Object 1.png" alt="">
+    </div>
+    <div class="relative text-black px-6 pb-6 mt-6">
+        <div class="flex justify-between">
+            <span class="block font-semibold text-xl justify-center mx-auto"> اینستاگرام </span>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<div  class="bg-violet-100 flex-shrink-0 m-6 relative overflow-hidden rounded-lg max-w-xs shadow-lg group w-52 h-52">
+       
+  <div class="relative pt-10 px-10 flex items-center justify-center group-hover:scale-110 transition-transform">
+      <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3">
+      </div>
+      <img class="relative w-20" src="../assets/images/icons8-teacher-94 1.png " alt="">
+  </div>
+  <div class="relative text-black px-6 pb-6 mt-6">
+      <div class="flex justify-between">
+          <span class="block font-semibold text-xl justify-center mx-auto"> اساتید </span>
+      </div>
+  </div>
+</div>
+
+
+
+
+<div  class="bg-violet-100 flex-shrink-0 m-6 relative overflow-hidden rounded-lg max-w-xs shadow-lg group w-52 h-52">
+       
+  <div class="relative pt-10 px-10 flex items-center justify-center group-hover:scale-110 transition-transform">
+      <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3">
+      </div>
+      <img class="relative w-20" src="../assets/images/icons8-paper-94 1.png" alt="">
+  </div>
+  <div class="relative text-black px-6 pb-6 mt-6">
+      <div class="flex justify-between">
+          <span class="block font-semibold text-xl justify-center mx-auto"> رویداد ها </span>
+      </div>
+  </div>
+</div>
+
+
+
+    </div>
+
+    <div style="margin-top: 6%;" dir="ltr"  class="flex flex-col md:flex-row bg-white rounded-lg p-6 ">
+      <!-- Left Column -->
+      <div style="display: ruby;" class="flex flex-col space-y-4 w-full md:w-1/2">
+          <!-- دوره های آموزشی -->
+          <div dir="rtl" style="width: 60%;" class="flex items-center p-4 bg-green-50 rounded-lg shadow-md ">
+              <div>
+                  <!-- Icon -->
+                  <svg width="49" height="59" viewBox="0 0 49 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g filter="url(#filter0_d_91_23)">
+                    <rect x="4" y="9" width="28" height="37" rx="7" fill="#009456"/>
+                    <rect x="20.0496" width="28" height="37" rx="7" transform="rotate(19.0059 20.0496 0)" fill="#A7F0D1"/>
+                    <rect x="23.4317" y="11" width="15" height="4" rx="2" transform="rotate(20.9731 23.4317 11)" fill="#009456"/>
+                    <rect x="21.4317" y="16" width="15" height="4" rx="2" transform="rotate(20.9731 21.4317 16)" fill="#009456"/>
+                    <rect x="19.4317" y="21" width="15" height="4" rx="2" transform="rotate(20.9731 19.4317 21)" fill="#009456"/>
+                    </g>
+                    <defs>
+                    <filter id="filter0_d_91_23" x="0" y="1.89612" width="48.627" height="57.1039" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                    <feOffset dy="9"/>
+                    <feGaussianBlur stdDeviation="2"/>
+                    <feComposite in2="hardAlpha" operator="out"/>
+                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.579167 0 0 0 0 0.335917 0 0 0 0.3 0"/>
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_91_23"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_91_23" result="shape"/>
+                    </filter>
+                    </defs>
+                    </svg>
+                    
+              </div>
+              <div class="mr-4">
+                  <h3 class="text-green-700 font-semibold">دوره های آموزشی</h3>
+                  <p class="text-gray-700">در رشته دلخواه خود، حرفه ای تر شوید!</p>
+              </div>
+          </div>
+          <!-- ورکشاپ های عملی -->
+          <div dir="rtl" style="width: 60%;"  class="flex items-center p-4 bg-orange-50 rounded-lg shadow-md">
+              <div >
+                  <!-- Icon -->
+                  <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g filter="url(#filter0_d_249_93)">
+                    <rect x="4" width="42" height="42" rx="8" fill="#FAB9A5"/>
+                    </g>
+                    <path d="M18 6L18 22" stroke="#F4511E" stroke-width="4" stroke-linecap="round"/>
+                    <path d="M18 30L18 36" stroke="#F4511E" stroke-width="4" stroke-linecap="round"/>
+                    <path d="M33 36L33 20" stroke="#F4511E" stroke-width="4" stroke-linecap="round"/>
+                    <path d="M33 12L33 6" stroke="#F4511E" stroke-width="4" stroke-linecap="round"/>
+                    <circle cx="33" cy="13" r="4" fill="#F4511E"/>
+                    <circle cx="18" cy="29" r="3.5" fill="#F4511E" stroke="#F4511E"/>
+                    <defs>
+                    <filter id="filter0_d_249_93" x="0" y="0" width="50" height="50" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                    <feOffset dy="4"/>
+                    <feGaussianBlur stdDeviation="2"/>
+                    <feComposite in2="hardAlpha" operator="out"/>
+                    <feColorMatrix type="matrix" values="0 0 0 0 0.956863 0 0 0 0 0.317647 0 0 0 0 0.117647 0 0 0 0.3 0"/>
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_249_93"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_249_93" result="shape"/>
+                    </filter>
+                    </defs>
+                    </svg>
+                    
+              </div>
+              <div class="mr-4">
+                  <h3 class="text-orange-700 font-semibold">ورکشاپ های عملی</h3>
+                  <p class="text-gray-700">همه آموزش ها را به شکل عملی تجربه کنید!</p>
+              </div>
+          </div>
+          <!-- پشتیبانی ۱ساله -->
+          <div dir="rtl" style="width: 60%;"  class="flex items-center p-4 bg-blue-50 rounded-lg shadow-md">
+              <div>
+                  <!-- Icon -->
+                  <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <g filter="url(#filter0_d_92_24)">
+                    <rect x="4" width="42" height="42" fill="url(#pattern0_92_24)" shape-rendering="crispEdges"/>
+                    </g>
+                    <defs>
+                    <filter id="filter0_d_92_24" x="0" y="0" width="50" height="50" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                    <feOffset dy="4"/>
+                    <feGaussianBlur stdDeviation="2"/>
+                    <feComposite in2="hardAlpha" operator="out"/>
+                    <feColorMatrix type="matrix" values="0 0 0 0 0.552941 0 0 0 0 0.478431 0 0 0 0 1 0 0 0 0.3 0"/>
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_92_24"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_92_24" result="shape"/>
+                    </filter>
+                    <pattern id="pattern0_92_24" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image0_92_24" transform="scale(0.02)"/>
+                    </pattern>
+                    <image id="image0_92_24" width="50" height="50" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADkklEQVR4nNWaW6iUVRTHd2mpxfGCKGUvQgSC4AVShMAXEYoKfNAQ6SUFoYfjBR3OrKX4FQQ6Z9aaYVI6njKCeghMvBAKPoiaqAiK4lGqh8RLgqGS+mJqx78sZwaGk52ZPbO/i3/YDzMw+9u/Wbe91/6cS0H9K/FScQPmK2ONMHYI4ZQSLivjjjJQH0K4XcxjjsuaShsxXRhfD13wcEMIq11WFEUYrYxtwvi3VQCtQpwv5NDlsqCteUwUwkkfAK2OgQphksuC+iO8IoQzvhBCuFCMMNllQXB4QRg/tgHxW4nxusuKlLD0uYfYuQQjlPHrcw1hkjw+8IUo5DDFZU3K+MrLrQgft5vWS4wPyz2YGo9FGOd8QIqM932fsaUH4+pp3SwaF8gNLxDCYp/5KxHGNtYmK7SxgCjhvleMMJZ7QTBODHHN+7GACOOKZ4xsamXe4jq8qoSjz0gWd2MBUcIxT5Dvms1ZyKFLCcf/J+v9GRfIJs9i+HszSwjjyDDp+1QsIL2EGZ4gFie3hHFQGKKMnBJWCGGRjRYsvMfFJWHs94XR9se22EC0BzOV8CgJECF8GtvO9ykMY1UiID2YHRyiyHhPCYeiCC/bZ2FsjxnkehThxaAQtmcSxsOaufvsO3uIEr6NEeTLsBDmRoTBIb5bNjd7esgi9AV3KcbD3g14MwiALVIZhWECsRyXZYSwNdwBivBNCw8MbhmxHfZajAnSWFDGzx7/XqNl+jsEGehdj9c6hticxwTv/VSDZWwOYaxsq84QDthZpGMIZbxh7ZoO/LrPWqa1ueYq4XCLv72meXwSJNUKYVqtR9uZjxMONy6oRHhHCUXrLNqWvBYD/9izrKVUInwUJB4a/r2bASAGbWHN4s/FISEsUMa9INkmraa0EpbVq3XHEIzPU4EQQvfQat2BS/UnDgCr1oTPggBUx74owshEIXYuwYjaZUwQCDuiWiMtUYhKN0YJYVdASwxY8UwUohxhvDB+CQZBuJR4U7pS7dydDQjxV2Ej3nJJSxg/BHSneyXG24lDlBmzhPE4kCUeCGGhS0NCqASCGLRbKpeWlHE6SJoldKcGYVLC1QDW+MKlLfW86/uPJRg76oeltEG+78Cd9tpOwGVBxerLLe1AnIzt3NCuhLDbE+K87QRc1lTIocsW12JM/JHJq+S6rDPRrL1jMZGZF11cE2ke7yrjJ+taCOFvZVysNaLnpb224fQExD3Y+7hXvUoAAAAASUVORK5CYII="/>
+                    </defs>
+                    </svg>
+                    
+              </div>
+              <div class="mr-4">
+                  <h3 class="text-blue-700 font-semibold">پشتیبانی ۱ساله</h3>
+                  <p class="text-gray-700">پشتیبانی یک ساله برای هر دوره!</p>
+              </div>
+          </div>
+          <!-- استادهای با تجربه -->
+          <div dir="rtl" style="width: 60%;"  class="flex items-center p-4 bg-purple-50 rounded-lg shadow-md">
+              <div >
+                  <!-- Icon -->
+                  <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <g filter="url(#filter0_d_92_26)">
+                    <rect x="4" width="42" height="42" fill="url(#pattern0_92_26)" shape-rendering="crispEdges"/>
+                    </g>
+                    <defs>
+                    <filter id="filter0_d_92_26" x="0" y="0" width="50" height="50" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                    <feOffset dy="4"/>
+                    <feGaussianBlur stdDeviation="2"/>
+                    <feComposite in2="hardAlpha" operator="out"/>
+                    <feColorMatrix type="matrix" values="0 0 0 0 0.02 0 0 0 0 0 0 0 0 0 1 0 0 0 0.3 0"/>
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_92_26"/>
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_92_26" result="shape"/>
+                    </filter>
+                    <pattern id="pattern0_92_26" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image0_92_26" transform="scale(0.0104167)"/>
+                    </pattern>
+                    <image id="image0_92_26" width="96" height="96" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAAF42lUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNi4wLWMwMDIgNzkuMTY0NDg4LCAyMDIwLzA3LzEwLTIyOjA2OjUzICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgMjIuMCAoV2luZG93cykiIHhtcDpDcmVhdGVEYXRlPSIyMDI0LTA1LTIyVDE2OjE4OjEzKzAyOjAwIiB4bXA6TW9kaWZ5RGF0ZT0iMjAyNC0wNy0wMlQxMzowMTowOSswMjowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyNC0wNy0wMlQxMzowMTowOSswMjowMCIgZGM6Zm9ybWF0PSJpbWFnZS9wbmciIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiIHBob3Rvc2hvcDpJQ0NQcm9maWxlPSJzUkdCIElFQzYxOTY2LTIuMSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpiNWFjZTQ0ZC0yZGJhLTcyNGEtYWRiZC05ZGUwNGU0ZGI2NTciIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Y2RhZDVhYWItYmM2Mi1mNTQyLWExOGUtZmJmYjA5ZWMyNTUxIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6Y2RhZDVhYWItYmM2Mi1mNTQyLWExOGUtZmJmYjA5ZWMyNTUxIj4gPHhtcE1NOkhpc3Rvcnk+IDxyZGY6U2VxPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0iY3JlYXRlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDpjZGFkNWFhYi1iYzYyLWY1NDItYTE4ZS1mYmZiMDllYzI1NTEiIHN0RXZ0OndoZW49IjIwMjQtMDUtMjJUMTY6MTg6MTMrMDI6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCAyMi4wIChXaW5kb3dzKSIvPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0ic2F2ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6YjVhY2U0NGQtMmRiYS03MjRhLWFkYmQtOWRlMDRlNGRiNjU3IiBzdEV2dDp3aGVuPSIyMDI0LTA3LTAyVDEzOjAxOjA5KzAyOjAwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgMjIuMCAoV2luZG93cykiIHN0RXZ0OmNoYW5nZWQ9Ii8iLz4gPC9yZGY6U2VxPiA8L3htcE1NOkhpc3Rvcnk+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+YQvKKwAAB+hJREFUeJztnGmsHlMYx3+jnelea+1RS5FYqtVG23tLVKy1BbGUSGxBSFBUw6eSaKnbWkKEEIkPopbSKtoIEqVEVS1FgrQSlFarVYoOt8eH571t78155l3uWV7p/JL5cmbeeZ73/OecmTnP80xijKEkHjvEdmB7pxQgMqUAkSkFiEwpQGRKASJTChCZUoDIlAJEphQgMqUAkSkFiEwpQGRKASLTM7YDWVLTYb2AMcA4YChwKLAn0B8wwEbgJ+Br4DPgLeADYFO1E+eRV+OT2PGAKgIMB64BLgR2qvPU64BZ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"/>
+                    </defs>
+                    </svg>
+                    
+              </div>
+              <div class="mr-4">
+                  <h3 class="text-purple-700 font-semibold">استادهای با تجربه</h3>
+                  <p class="text-gray-700">تجربه یادگیری با بهترین استادها!</p>
+              </div>
+          </div>
+      </div>
+      
+      <!-- Right Column -->
+      <div style="margin-right: 6.5%; margin-bottom: 13%;" class="flex flex-col justify-center w-full md:w-1/2 mt-8 md:mt-0 md:pl-8">
+          <h2 dir="rtl" class="text-indigo-700 text-xl font-semibold mb-4">ویژگی های آکادمی</h2>
+          <p dir="" class="text-gray-700 leading-loose">
+              ما در اینجا به کیفیت تعلیم فرزند شما اهمیت می دهیم.
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+              چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.
+              و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+          </p>
+      </div>
+  </div>
+   <!--تاریخچه آکادمی آرسیا-->
+
+
+
+   <div class="flex pt-12 px-6 md:px-20  items-center justify-center bg-hero md:h-screen overflow-hidden text-right">
+    <div style="width: 91%;" class="flex flex-col  gap-6 md:flex-row items-center max-w-8xl">
+        <div class="w-full md:w-1/2 lg:pr-32">
+          <h6 class="text-sm lg:text-xl text-center md:text-right text-violet-400 leading-tight mb-8">
+            درباره آکادمی 
+          </h6>
+            <h2 class="text-xl lg:text-xl text-center md:text-right text-black leading-tight font-bold">
+              تاریخچه آکادمی آرسیا
+            </h2>
+            <h3
+                class="mt-6 md:mt-10 text-md lg:text-xl text-center md:text-justify text-gray-700 font-light tracking-wider leading-relaxed pl-2 ">
+                ما در اینجا به کیفیت تعلیم فرزند شما اهمیت می دهیم.
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.
+                و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                ما در اینجا به کیفیت تعلیم فرزند شما اهمیت می دهیم.
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.
+                و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی </h3>
+        </div>
+        <div class="w-full md:w-1/2 flex justify-center md:justify-end">
+            <img class="rounded-3xl px-1" src="../assets/images/various-education-school-study 1.png">
+        </div>
+    </div>
+</div>
+      <div style="width: 84%;"  dir="rtl" class="container mx-auto p-4">
+    <h2 class="text-purple-600 text-xl font-bold mb-4">رویداد های آکادمی</h2>
+    <h3 class="text-gray-800 text-lg font-bold mb-6">اخبار و مقالات آکادمی</h3>
+    
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <!-- Card 1 -->
+        <div class="bg-white p-4 rounded-lg shadow">
+            <span class="text-purple-600 text-sm font-bold mb-2 inline-block">مقاله</span>
+            <h4 class="text-gray-800 font-semibold mb-2">اعلام رتبه های برتر دوره پایتون</h4>
+            <p class="text-gray-600 mb-4">لورم ایپسوم متن ساختگی با تولید سادگی‌نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+            <div class="flex justify-between items-center text-sm text-gray-500">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect width="20" height="20" fill="url(#pattern0_95_62)" fill-opacity="0.6"/>
+                    <defs>
+                    <pattern id="pattern0_95_62" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image0_95_62" transform="scale(0.0416667)"/>
+                    </pattern>
+                    <image id="image0_95_62" width="24" height="24" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAY0lEQVR4nGNgwA7+QzGxgFT1Q8yCo0gKYIqwsf/jwPjUH8ZmAC7X/cdjAT71BA34TyGmvQWHaWj4IXJTDSGAYR7dLfhPZT4D3S2gFPwfcAv+j8YBw2gcMIzYfPCf2nUBzS0AAA/vChUHBpVRAAAAAElFTkSuQmCC"/>
+                    </defs>
+                    </svg>
+                <span style="margin-left: 50%;">2 هفته پیش </span>
+                <span class="flex items-center">
+                  
+                        
+                    <a href="#" class="text-purple-600">مشاهده بیشتر</a>
+                </span>
+            </div>
+        </div>
+        
+        <!-- Card 2 -->
+        <div class="bg-white p-4 rounded-lg shadow
+        
+        
+        ">
+            <span class="text-purple-600 text-sm font-bold mb-2 inline-block">مقاله</span>
+            <h4 class="text-gray-800 font-semibold mb-2">اعلام رتبه های برتر دوره پایتون</h4>
+            <p class="text-gray-600 mb-4">لورم ایپسوم متن ساختگی با تولید سادگی‌نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+            <div class="flex justify-between items-center text-sm text-gray-500">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect width="20" height="20" fill="url(#pattern0_95_62)" fill-opacity="0.6"/>
+                    <defs>
+                    <pattern id="pattern0_95_62" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image0_95_62" transform="scale(0.0416667)"/>
+                    </pattern>
+                    <image id="image0_95_62" width="24" height="24" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAY0lEQVR4nGNgwA7+QzGxgFT1Q8yCo0gKYIqwsf/jwPjUH8ZmAC7X/cdjAT71BA34TyGmvQWHaWj4IXJTDSGAYR7dLfhPZT4D3S2gFPwfcAv+j8YBw2gcMIzYfPCf2nUBzS0AAA/vChUHBpVRAAAAAElFTkSuQmCC"/>
+                    </defs>
+                    </svg>
+                <span style="margin-left: 50%;">2 هفته پیش </span>
+                <span class="flex items-center">
+                   
+                        
+                    <a href="#" class="text-purple-600">مشاهده بیشتر</a>
+                </span>
+            </div>
+        </div>
+        
+        <!-- Card 3 -->
+        <div class="bg-white p-4 rounded-lg shadow">
+            <span class="text-purple-600 text-sm font-bold mb-2 inline-block">خبر</span>
+            <h4 class="text-gray-800 font-semibold mb-2">اعلام رتبه های برتر دوره پایتون</h4>
+            <p class="text-gray-600 mb-4">لورم ایپسوم متن ساختگی با تولید سادگی‌نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+            <div class="flex justify-between items-center text-sm text-gray-500">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect width="20" height="20" fill="url(#pattern0_95_62)" fill-opacity="0.6"/>
+                    <defs>
+                    <pattern id="pattern0_95_62" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image0_95_62" transform="scale(0.0416667)"/>
+                    </pattern>
+                    <image id="image0_95_62" width="24" height="24" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAY0lEQVR4nGNgwA7+QzGxgFT1Q8yCo0gKYIqwsf/jwPjUH8ZmAC7X/cdjAT71BA34TyGmvQWHaWj4IXJTDSGAYR7dLfhPZT4D3S2gFPwfcAv+j8YBw2gcMIzYfPCf2nUBzS0AAA/vChUHBpVRAAAAAElFTkSuQmCC"/>
+                    </defs>
+                    </svg>
+                <span style="margin-left: 50%;">2 هفته پیش </span>
+                
+                <span class="flex items-center">
+                   
+                        
+                    <a href="#" class="text-purple-600">مشاهده بیشتر</a>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+   <!--گالری تصاویر-->
+
+
+
+    
+   <div class="w-full md:w-[] lg:pr-32 mt-6 ">
+    <h6 class="text-sm lg:text-xl text-center md:text-right text-violet-400 leading-tight mb-8 mt-6">
+      گالری تصاویر 
+    </h6>
+      <h2 class="text-xl lg:text-xl text-center md:text-right text-black leading-tight font-bold">
+        محیط آکادمی را در کنار ما ببینید
+      </h2>
+      </div>
+
+
+    <div class="flex flex-wrap justify-center gap-14 p-3">
+
+
+    <div class="flex justify-center items-center   h-[250px] w-[286px]">
+        <img  src="../assets/images/Mask group.png" alt="">
+    </div>
+
+    <div class="flex justify-center items-center   h-[250px] w-[286px]  ">
+        <img  src="../assets/images/Mask group.png" alt="">
+    </div>
+
+    <div class="flex justify-center items-center   h-[250px] w-[286px] ">
+        <img  src="../assets/images/Mask group(2).png" alt="">
+    </div>
+
+
+    
+    <div class="flex flex-wrap justify-center gap-14 p-3">
+
+      <div class="flex justify-center items-center  h-[250px] w-[286px] ">
+        <img  src="../assets/images/Mask group.png" alt="">
+
+      </div>
+  
+      <div class="flex justify-center items-center   h-[250px] w-[286px] " >
+          <img   src="../assets/images/Mask group.png" alt="" >
+      </div>
+  
+      <div class="flex justify-center items-center  h-[250px] w-[286px]">
+        <img  src="../assets/images/Mask group(4).png" alt="">
+
+      </div>
+      </div>
+  
+
+</div>
+
+  <div style="width: 88%; margin-top: 3%;" class="container mx-auto p-6">
+      <h1 dir="rtl" class="text-2xl font-bold mb-6">گوشه ای از افتخارات آکادمی آرسیا</h1>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
+          <div class="bg-white flex flex-col items-center justify-center p-4 rounded-lg shadow-md text-center">
+              <div  class="text-purple-500 text-4xl mb-2">
+                <svg width="92" height="92" viewBox="0 0 92 92" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect width="92" height="92" fill="url(#pattern0_101_215)"/>
+                    <defs>
+                    <pattern id="pattern0_101_215" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image0_101_215" transform="scale(0.01)"/>
+                    </pattern>
+                    <image id="image0_101_215" width="100" height="100" xlink:href="data:image/png;base64,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"/>
+                    </defs>
+                    </svg>
+                    
+              </div>
+              <p class="font-semibold">کسب رتبه اول در مسابقات</p>
+              <p class="text-gray-500">AWS</p>
+          </div>
+          <div class="bg-white p-4 rounded-lg shadow-md text-center flex flex-col items-center justify-center ">
+              <div    class="text-purple-500 text-4xl mb-2">
+                <svg width="92" height="92" viewBox="0 0 92 92" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect width="92" height="92" fill="url(#pattern0_101_215)"/>
+                    <defs>
+                    <pattern id="pattern0_101_215" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image0_101_215" transform="scale(0.01)"/>
+                    </pattern>
+                    <image id="image0_101_215" width="100" height="100" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAGfUlEQVR4nO2dW4wURRSGCzUkKl4evEXFG4K+K9GYGKNIohhvMYiivBiVqAFBwO2q3qRRX5idOrOL2RgJXmJi1CCCYoz6QkxEXdEXgy8iQYK3F1EUo4LAb07Pafbizs7uTvdMdXd9SSVspqbnVP1dt3OqCqU8Ho/H4/F4PB6Px+PxeDwejycPrItwEmk8TRq7rMFhMoBLybJNGrtIYzUtx4mqyHABrcGnna50Gm/S+KTQoliDp+Qt/M5qzIkiTFWOEUWYWgtxI2nsEVsjVVTirsAA1RA3KMepsSh1Qb5VRYU0DnIh+yNMU45TWYVTRJB/VFHhty0upMYc5ThWY66MIztVUalqLJdC7uEuwdUxxLIYyRii8bgqKhvm43irsaUj01mNrxM7+N9D/06IZ1XDv/M226yKDBSmWIOHrcHWpODKEWhwLbKVNB5iW1WZcFUQVVZcqwByzB5V9gogx+xRZa8AcsweVfYKIMfsyZw+jbNJY4XV2JS4UVyqABp0Ku5iG22IJ6oRzlJFFMJqvGINDo22RlCOQKO74w+RxsuFEYYM7rIav8mbd5A0NpDGPZVuzHRVEBtgFttIBm8m/jcy+JUM7lR5hgweJY0jsurdtOZJnD/i81QEsRqPkMGf1uD1Fu39nz02xHQy2Cyt5TD/lsojNYPbrcFRTmSwdLQ8aQhCBquG9P3/tvishvaQwbKkPDWDW1We6OvCBce6qQZipCEIcZh1eIQvM0Hk86VJ9zWytTuNNXhBKmjDWPlaEYRGitEGQRirsVF+a53KTeuoz0wO9nbhoswEMfhD+vVt7RSkGuJiLh+nXLQSq7FEKue1ZnlbFKRCGq/aENe0UxCGJw8yUXlMuY41eD82NsS9zfKmMajXDK5styCksVBa53sqL2HanhAziipIJVlD5SG8y+sBNra6AicXVZD+CNOkyzqgXIeNHO/OkrwKUpEdKTyxUHnpsijApYUVpPuY2+cb5To80EnlLCyqIDbEfZL3XeU67Zr2dniW9UZ+pr0hpicLJ15EFU2QWoBLcrUwZEhjvbxBG4smiOXgWn0N8rzKC3ErGXQuLiuKIGSwTF60fWRwnsoT7KJO3NUcCs27IDbAyjiUoHGkanCLyiMczBlySuoddjzmTZC+eihhy5DTVYtVnrEad0j4M45P87jCfq44TOqoIDbALLaRDN5K9gFwN2UD3KaKAG8QsAYvDYlPp7bJoZaBIMNSfR/Ai2s1zlRFgwvF2/vjII/GTgnvgl0RnRakMnhAh8eJnfEGB4OlNsIZqiyQxu6ki5jsM9ZGOJUMBkjjb96uM9nn9HbjMhF1tyor1uBD8Xvd1GlbKMA8EeQDVVbi8+r17ubZjtti0C+CrFZlpRpgtlTC3k6eVIoinEAG30v3eYUqK3xCiQx2yGD6QKfs4NNS0lK/Kt2pqUbxaX5D+ztwXFpmVz/KPoAFquxEEY6zBh+JKJv573b+NnsQpNv8uJ2/7TTs0iaD/bIi7m1HxYgYffIi7G8WKigdpHFdvJaQlpJl9yXdVNwyrMFfNY1rs/qtXGM15ohrm1vKD9bgwTRnX/Fsqj6A18cMg19I4/q0nl9IekLMGHaAX2MvrxGqBjdbjcsn0nI4L3+HvyvrjHhqK2Js464y29IUBChMqQZYxLctjOrway3tII37Sz+9nSzWIEpLjELffdUuyOBLqdCuyVxWI5fJBDIufZGNlSXCTmAnZFPXeh62froOGWyXFqJbaCFGBPk8GytLhNWYmwSyWk082+p0eQoBBZjHb3ejEPCYqf6dAS9GRvSsxDnNBmj+jPNw3qzs8AjVAFeJIJtUA3i3SNxFBZjdKI8nJaoBFklXVG2UxxrY8e7A97QIaayLKzvE/EZ5ahp3yxjynK/wjKH6nfFHK6tw7pjbjWQ7jxckSzEMrpbx47Nx5B3w40jGWN79WBdkSVNBNBbLOLI+a7tKSTXEhbI3+MCaLpzWLD/nsRq/8zpk5CZvTwrYwYMy4/bYWoNncnMWME/YEAukq/ppIk7G3gink8HPzWZlnglQ6cbMJKzLa5CJVh7fAidi7uNn+cpvAp9Gij26TfxUtoXb4pJTs038XdvZZ1ZqwUSMVEO0dpRL9nmHfOycHM8zyixK4gScbDQwLUZEFcsbM0kuIXPhf9yp5On+ElejgWnho4oZRAMppVT6QFZL0UCTUvJRRY/H4/F4PB6Px+PxeDwej8ejcs5/fgklLySAAskAAAAASUVORK5CYII="/>
+                    </defs>
+                    </svg>
+                    
+              </div>
+              <p class="font-semibold">کسب رتبه اول در مسابقات</p>
+              <p class="text-gray-500">AWS</p>
+          </div>
+          <div class="bg-white p-4 rounded-lg shadow-md text-center flex flex-col items-center justify-center">
+              <div class="text-purple-500 text-4xl mb-2">
+                <svg width="92" height="92" viewBox="0 0 92 92" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect width="92" height="92" fill="url(#pattern0_101_215)"/>
+                    <defs>
+                    <pattern id="pattern0_101_215" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image0_101_215" transform="scale(0.01)"/>
+                    </pattern>
+                    <image id="image0_101_215" width="100" height="100" xlink:href="data:image/png;base64,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"/>
+                    </defs>
+                    </svg>
+                    
+              </div>
+              <p class="font-semibold">کسب رتبه اول در مسابقات</p>
+              <p class="text-gray-500">AWS</p>
+          </div>
+          <div class="bg-white p-4 rounded-lg shadow-md text-center flex flex-col items-center justify-center">
+              <div class="text-purple-500 text-4xl mb-2">
+                <svg width="92" height="92" viewBox="0 0 92 92" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect width="92" height="92" fill="url(#pattern0_101_215)"/>
+                    <defs>
+                    <pattern id="pattern0_101_215" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image0_101_215" transform="scale(0.01)"/>
+                    </pattern>
+                    <image id="image0_101_215" width="100" height="100" xlink:href="data:image/png;base64,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"/>
+                    </defs>
+                    </svg>
+                    
+              </div>
+              <p class="font-semibold">کسب رتبه اول در مسابقات</p>
+              <p class="text-gray-500">AWS</p>
+          </div>
+          <div class="bg-white p-4 rounded-lg shadow-md text-center flex flex-col items-center justify-center">
+              <div class="text-purple-500 text-4xl mb-2">
+                <svg width="92" height="92" viewBox="0 0 92 92" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect width="92" height="92" fill="url(#pattern0_101_215)"/>
+                    <defs>
+                    <pattern id="pattern0_101_215" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image0_101_215" transform="scale(0.01)"/>
+                    </pattern>
+                    <image id="image0_101_215" width="100" height="100" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAGfUlEQVR4nO2dW4wURRSGCzUkKl4evEXFG4K+K9GYGKNIohhvMYiivBiVqAFBwO2q3qRRX5idOrOL2RgJXmJi1CCCYoz6QkxEXdEXgy8iQYK3F1EUo4LAb07Pafbizs7uTvdMdXd9SSVspqbnVP1dt3OqCqU8Ho/H4/F4PB6Px+PxeDwejycPrItwEmk8TRq7rMFhMoBLybJNGrtIYzUtx4mqyHABrcGnna50Gm/S+KTQoliDp+Qt/M5qzIkiTFWOEUWYWgtxI2nsEVsjVVTirsAA1RA3KMepsSh1Qb5VRYU0DnIh+yNMU45TWYVTRJB/VFHhty0upMYc5ThWY66MIztVUalqLJdC7uEuwdUxxLIYyRii8bgqKhvm43irsaUj01mNrxM7+N9D/06IZ1XDv/M226yKDBSmWIOHrcHWpODKEWhwLbKVNB5iW1WZcFUQVVZcqwByzB5V9gogx+xRZa8AcsweVfYKIMfsyZw+jbNJY4XV2JS4UVyqABp0Ku5iG22IJ6oRzlJFFMJqvGINDo22RlCOQKO74w+RxsuFEYYM7rIav8mbd5A0NpDGPZVuzHRVEBtgFttIBm8m/jcy+JUM7lR5hgweJY0jsurdtOZJnD/i81QEsRqPkMGf1uD1Fu39nz02xHQy2Cyt5TD/lsojNYPbrcFRTmSwdLQ8aQhCBquG9P3/tvishvaQwbKkPDWDW1We6OvCBce6qQZipCEIcZh1eIQvM0Hk86VJ9zWytTuNNXhBKmjDWPlaEYRGitEGQRirsVF+a53KTeuoz0wO9nbhoswEMfhD+vVt7RSkGuJiLh+nXLQSq7FEKue1ZnlbFKRCGq/aENe0UxCGJw8yUXlMuY41eD82NsS9zfKmMajXDK5styCksVBa53sqL2HanhAziipIJVlD5SG8y+sBNra6AicXVZD+CNOkyzqgXIeNHO/OkrwKUpEdKTyxUHnpsijApYUVpPuY2+cb5To80EnlLCyqIDbEfZL3XeU67Zr2dniW9UZ+pr0hpicLJ15EFU2QWoBLcrUwZEhjvbxBG4smiOXgWn0N8rzKC3ErGXQuLiuKIGSwTF60fWRwnsoT7KJO3NUcCs27IDbAyjiUoHGkanCLyiMczBlySuoddjzmTZC+eihhy5DTVYtVnrEad0j4M45P87jCfq44TOqoIDbALLaRDN5K9gFwN2UD3KaKAG8QsAYvDYlPp7bJoZaBIMNSfR/Ai2s1zlRFgwvF2/vjII/GTgnvgl0RnRakMnhAh8eJnfEGB4OlNsIZqiyQxu6ki5jsM9ZGOJUMBkjjb96uM9nn9HbjMhF1tyor1uBD8Xvd1GlbKMA8EeQDVVbi8+r17ubZjtti0C+CrFZlpRpgtlTC3k6eVIoinEAG30v3eYUqK3xCiQx2yGD6QKfs4NNS0lK/Kt2pqUbxaX5D+ztwXFpmVz/KPoAFquxEEY6zBh+JKJv573b+NnsQpNv8uJ2/7TTs0iaD/bIi7m1HxYgYffIi7G8WKigdpHFdvJaQlpJl9yXdVNwyrMFfNY1rs/qtXGM15ohrm1vKD9bgwTRnX/Fsqj6A18cMg19I4/q0nl9IekLMGHaAX2MvrxGqBjdbjcsn0nI4L3+HvyvrjHhqK2Js464y29IUBChMqQZYxLctjOrway3tII37Sz+9nSzWIEpLjELffdUuyOBLqdCuyVxWI5fJBDIufZGNlSXCTmAnZFPXeh62froOGWyXFqJbaCFGBPk8GytLhNWYmwSyWk082+p0eQoBBZjHb3ejEPCYqf6dAS9GRvSsxDnNBmj+jPNw3qzs8AjVAFeJIJtUA3i3SNxFBZjdKI8nJaoBFklXVG2UxxrY8e7A97QIaayLKzvE/EZ5ahp3yxjynK/wjKH6nfFHK6tw7pjbjWQ7jxckSzEMrpbx47Nx5B3w40jGWN79WBdkSVNBNBbLOLI+a7tKSTXEhbI3+MCaLpzWLD/nsRq/8zpk5CZvTwrYwYMy4/bYWoNncnMWME/YEAukq/ppIk7G3gink8HPzWZlnglQ6cbMJKzLa5CJVh7fAidi7uNn+cpvAp9Gij26TfxUtoXb4pJTs038XdvZZ1ZqwUSMVEO0dpRL9nmHfOycHM8zyixK4gScbDQwLUZEFcsbM0kuIXPhf9yp5On+ElejgWnho4oZRAMppVT6QFZL0UCTUvJRRY/H4/F4PB6Px+PxeDwej8ejcs5/fgklLySAAskAAAAASUVORK5CYII="/>
+                    </defs>
+                    </svg>
+                    
+              </div>
+              <p class="font-semibold">کسب رتبه اول در مسابقات</p>
+              <p class="text-gray-500">AWS</p>
+          </div>
+      </div>
+  </div>
+
+
+
+  <!-- دانشجویان برتر-->
+
+
+
+  <div style="margin-top: 10%;" class="w-full md:w-[90%] lg:pl-32">
+    <h2 dir="rtl" class="text-xl lg:text-xl text-center md:text-right text-black leading-tight font-bold">
+      دانشجویان برتر
+    </h2>
+    </div>
+
+
+
+
+  
+  <div style="width: 104;" class="p-1 flex flex-wrap items-center justify-center">
+
+          <div  class="bg-violet-100 flex-shrink-0 m-6 relative overflow-hidden rounded-lg max-w-xs shadow-lg group w-52 h-60">
+       
+            <div class="relative pt-10 px-10 flex items-center justify-center group-hover:scale-110 transition-transform">
+                <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3">
+                </div>
+                <img class="relative w-20" src="../assets/images/Mask group(5).png" alt="">
+            </div>
+            <div class="relative text-black px-6 pb-6 mt-6">
+                <div class="flex justify-between">
+                    <span class="block font-semibold text-xl justify-center mx-auto">  رضا داوودی </span>
+                </div>
+                <div class="flex justify-between">
+                  <span class="block  text-xl justify-center mx-auto mt-5">  پایتون </span>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+    <div  class="bg-violet-100 flex-shrink-0 m-6 relative overflow-hidden rounded-lg max-w-xs shadow-lg group w-52 h-60">
+       
+      <div class="relative pt-10 px-10 flex items-center justify-center group-hover:scale-110 transition-transform">
+          <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3">
+          </div>
+          <img class="relative w-20" src="../assets/images/Mask group(5).png" alt="">
+      </div>
+      <div class="relative text-black px-6 pb-6 mt-6">
+          <div class="flex justify-between">
+              <span class="block font-semibold text-xl justify-center mx-auto">  رضا داوودی </span>
+          </div>
+          <div class="flex justify-between">
+            <span class="block  text-xl justify-center mx-auto mt-5">  پایتون </span>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+  <div  class="bg-violet-100 flex-shrink-0 m-6 relative overflow-hidden rounded-lg max-w-xs shadow-lg group w-52 h-60">
+       
+    <div class="relative pt-10 px-10 flex items-center justify-center group-hover:scale-110 transition-transform">
+        <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3">
+        </div>
+        <img class="relative w-20" src="../assets/images/Mask group(5).png" alt="">
+    </div>
+    <div class="relative text-black px-6 pb-6 mt-6">
+        <div class="flex justify-between">
+            <span class="block font-semibold text-xl justify-center mx-auto">  رضا داوودی </span>
+        </div>
+        <div class="flex justify-between">
+          <span class="block  text-xl justify-center mx-auto mt-5">  پایتون </span>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  
+
+
+<div  class="bg-violet-100 flex-shrink-0 m-6 relative overflow-hidden rounded-lg max-w-xs shadow-lg group w-52 h-60">
+       
+  <div class="relative pt-10 px-10 flex items-center justify-center group-hover:scale-110 transition-transform">
+      <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3">
+      </div>
+      <img class="relative w-20" src="../assets/images/Mask group(5).png" alt="">
+  </div>
+  <div class="relative text-black px-6 pb-6 mt-6">
+      <div class="flex justify-between">
+          <span class="block font-semibold text-xl justify-center mx-auto">  رضا داوودی </span>
+      </div>
+      <div class="flex justify-between">
+        <span class="block  text-xl justify-center mx-auto mt-5">  پایتون </span>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div  class="bg-violet-100 flex-shrink-0 m-6 relative overflow-hidden rounded-lg max-w-xs shadow-lg group w-52 h-60">
+       
+  <div class="relative pt-10 px-10 flex items-center justify-center group-hover:scale-110 transition-transform">
+      <div class="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3">
+      </div>
+      <img class="relative w-20" src="../assets/images/Mask group(5).png" alt="">
+  </div>
+  <div class="relative text-black px-6 pb-6 mt-6">
+      <div class="flex justify-between">
+          <span class="block font-semibold text-xl justify-center mx-auto">  رضا داوودی </span>
+      </div>
+      <div class="flex justify-between">
+        <span class="block  text-xl justify-center mx-auto mt-5">  پایتون </span>
+    </div>
+  </div>
+</div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+  <div style="width: 83%; margin-top: 5%;"  class="container mx-auto p-6">
+    <h1 dir="rtl" class="text-xl font-bold mb-6 text-purple-500">معرفی اعضا</h1>
+    <h2 dir="rtl" class="text-2xl font-bold mb-6">با کادر آموزشی و مدرسان آکادمی آشنا شوید</h2>
+    <div class="flex flex-col lg:flex-row items-center lg:items-start lg:justify-between">
+        <div class="w-full lg:w-2/5 mb-6 lg:mb-0">
+
+            
+            <div class="relative" id="Rezome-1">
+                <img src="/assets/images/Group 148.png" alt="Profile Image" id="ImageRez" class="rounded-lg shadow-lg  text-center flex flex-col items-center justify-center" style="border-radius: 7% ; width: 90%;">
+                <div id="Pr-1" class="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-center flex flex-col items-center justify-center " style="
+                width: 90%;
+                margin-top: 45% ;">
+                
+                    <div class="text-white text-2xl mb-2"><img id="RotSl-1" src="/assets/images/IconRot.png.png"></div>
+                    <p class="text-white text-center px-4  ">
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
+                        ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
+                        ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
+                        ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
+                        ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
+                        ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="relative" id="Rezome-2">
+                <img src="/assets/images/Group 148.png" alt="Profile Image" id="ImageRez" class="rounded-lg shadow-lg  text-center flex flex-col items-center justify-center" style="border-radius: 7% ; width: 90%;">
+                <div id="Pr-2" class="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-center flex flex-col items-center justify-center " style="width: 90%; margin-top: 45%; transition: all 1s ease 0s;">
+                
+                    <div class="text-white text-2xl mb-2"><img id="RotSl-2" src="/assets/images/IconRot.png.png" style="rotate: 360deg; transition: all 1s ease 0s;"></div>
+                    <p class="text-white text-center px-4  ">
+                        کنند که سیستم فوتبال نامیده می‌شود. امروزه بیش از ۲۵۰ میلیون فوتبالیست
+                        کنند که سیستم فوتبال نامیده می‌شود. امروزه بیش از ۲۵۰ میلیون فوتبالیست
+                        است.[۴] فوتبال را دو تیم یازده‌نفره متشکل از بازیکنان فوتبال با یک توپ فوتبال بر روی چمن طبیعی یا مصنوعی با هدف گل‌زدن انجام می‌دهند. یازده بازیکن هر تیم شامل چند مهاجم، هافبک، مدافع و یک دروازه‌بان می‌شوند که توسط سرمربی در زمین چیده می‌شوند و مانند یک سیستم عمل می‌کنند که سیستم فوتبال نامیده می‌شود. امروزه بیش از ۲۵۰ میلیون فوتبالیست
+                    </p>
+                </div>
+            </div>
+
+            <div class="relative" id="Rezome-3">
+                <img src="/assets/images/Group 148.png" alt="Profile Image" id="ImageRez" class="rounded-lg shadow-lg  text-center flex flex-col items-center justify-center" style="border-radius: 7% ; width: 90%;">
+                <div id="Pr-3" class="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-center flex flex-col items-center justify-center " style="width: 90%; margin-top: 45%; transition: all 1s ease 0s;">
+                
+                    <div class="text-white text-2xl mb-2"><img id="RotSl-3" src="/assets/images/IconRot.png.png" style="rotate: 360deg; transition: all 1s ease 0s;"></div>
+                    <p class="text-white text-center px-4  " >
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
+                        ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
+                        ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
+                        ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
+                        ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
+                        ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
+                    </p>
+                </div>
+            </div>
+
+            <div class="relative" id="Rezome-4">
+                <img src="/assets/images/Group 148.png" alt="Profile Image" id="ImageRez" class="rounded-lg shadow-lg  text-center flex flex-col items-center justify-center" style="border-radius: 7% ; width: 90%;">
+                <div id="Pr-4" class="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-center flex flex-col items-center justify-center " style="width: 90%; margin-top: 45%; transition: all 1s ease 0s;">
+                
+                    <div class="text-white text-2xl mb-2"><img id="RotSl-4" src="/assets/images/IconRot.png.png" style="rotate: 360deg; transition: all 1s ease 0s;"></div>
+                    <p class="text-white text-center px-4  " >
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
+                        ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
+                        ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
+                        ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
+                        ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
+                        ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
+                    </p>
+                </div>
+            </div>
+
+            <div class="relative" id="Rezome-5">
+                <img src="/assets/images/Group 148.png" alt="Profile Image" id="ImageRez" class="rounded-lg shadow-lg  text-center flex flex-col items-center justify-center" style="border-radius: 7% ; width: 90%;">
+                <div id="Pr-5" class="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-center flex flex-col items-center justify-center " style="width: 90%; margin-top: 45%; transition: all 1s ease 0s;">
+                
+                    <div class="text-white text-2xl mb-2"><img id="RotSl-5" src="/assets/images/IconRot.png.png" style="rotate: 360deg; transition: all 1s ease 0s;"></div>
+                    <p class="text-white text-center px-4  " >
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
+                        ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
+                        ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
+                        ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
+                        ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
+                        ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
+                    </p>
+                </div>
+            </div>
+
+            <div class="relative" id="Rezome-6">
+                <img src="/assets/images/Group 148.png" alt="Profile Image" id="ImageRez" class="rounded-lg shadow-lg  text-center flex flex-col items-center justify-center" style="border-radius: 7% ; width: 90%;">
+                <div id="Pr-6" class="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-center flex flex-col items-center justify-center " style="width: 90%; margin-top: 45%; transition: all 1s ease 0s;">
+                
+                    <div class="text-white text-2xl mb-2"><img id="RotSl-6" src="/assets/images/IconRot.png.png" style="rotate: 360deg; transition: all 1s ease 0s;"></div>
+                    <p class="text-white text-center px-4  " >
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
+                        ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
+                        ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
+                        ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
+                        ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
+                        ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="w-full h- lg:w-3/5 grid grid-cols-1 md:grid-cols-2 gap-4" id="Picup" >
+            <div class="bg-white p-4 rounded-lg shadow-md text-center flex flex-col items-center justify-center" id="Btn-2">
+                <div>
+                    <div class="text-2xl mb-2  text-center flex flex-col items-center justify-center"><img src="/assets/images/icons8-male-user-96 5.png" alt=""></div>
+                    <p class="font-semibold">رضا میرداماد</p>
+                    <p class="text-gray-500">معاون</p>
+                </div>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-md text-center flex  items-center justify-center" id="Btn-1">
+                <div>
+                    <div class="text-2xl mb-2  text-center flex flex-col items-center justify-center"><img src="/assets/images/icons8-male-user-96 5.png" alt=""></div>
+                    <p class="font-semibold">رضا میرداماد</p>
+                    <p class="text-gray-500">مدیریت</p>
+                </div>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-md text-center flex items-center justify-center" id="Btn-4">
+                <div>
+                    <div class="text-2xl mb-2  text-center flex flex-col items-center justify-center"><img src="/assets/images/icons8-male-user-96 5.png" alt=""></div>
+                    <p class="font-semibold">رضا میرداماد</p>
+                    <p class="text-gray-500">استاد</p>
+                </div>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-md text-center flex items-center justify-center" id="Btn-3">
+                <div>
+                    <div class="text-2xl mb-2  text-center flex flex-col items-center justify-center"><img src="/assets/images/icons8-male-user-96 5.png" alt=""></div>
+                    <p class="font-semibold">رضا میرداماد</p>
+                    <p class="text-gray-500">استاد</p>
+                </div>
+            </div>
+            <!-- <div class="bg-white p-4 rounded-lg shadow-md text-center flex flex-col items-center justify-center" id="Btn-6">
+                <div>
+                    <div class="text-2xl mb-2  text-center flex flex-col items-center justify-center"><img src="/assets/images/icons8-male-user-96 5.png" alt=""></div>
+                    <p class="font-semibold">رضا میرداماد</p>
+                    <p class="text-gray-500">استاد</p>
+                </div>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-md text-center flex items-center justify-center" id="Btn-5">
+                <div>
+                    <div class="text-2xl mb-2  text-center flex flex-col items-center justify-center"><img src="/assets/images/icons8-male-user-96 5.png" alt=""></div>
+                    <p class="font-semibold">رضا میرداماد</p>
+                    <p class="text-gray-500">استاد</p>
+                </div>
+            </div> -->
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<div dir="rtl" style="background: linear-gradient(180deg, #BD00FF 0%, #4A00A8 2000%)"; >
+    <div class="max-w-screen-lg px-4 sm:px-6 text-white sm:grid md:grid-cols-4 sm:grid-cols-2 mx-auto">
+       
+        <div class="p-5">
+            <div class="text-sm uppercase  font-bold">دسترسی سریع</div>
+            <a class="my-3 block" href="/#">رویدادها <span class="text-teal-600 text-xs p-1"></span></a><a
+                class="my-3 block" href="/#">اساتید <span class="text-teal-600 text-xs p-1"></span></a><a
+                class="my-3 block" href="/#">اینستاگرام <span class="text-teal-600 text-xs p-1"></span></a><a
+                class="my-3 block" href="/#">درباره ما <span class="text-teal-600 text-xs p-1"></span></a>
+                
+                
+        </div>
+        
+        <div class="p-5 text-white">
+            <div class="text-sm uppercase  font-bold"> ارتباط با ما</div>
+            <a class="my-3 block" href="/#">آدرس : مازندران ، قائمشهر ، کفشگرکلا عدالت 
+                <span class="text-xs p-1"></span></a><a class="my-3 block" href="/#">تلفن : 42232222-011 
+                <span class=" text-xs p-1"></span></a>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="src/script.js"></script>
+
+</body>
+</html>
