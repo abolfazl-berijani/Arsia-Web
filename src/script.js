@@ -265,3 +265,8 @@ $( "#MenuBR" ).click(function() {
         CheckP=true;
     }
 });
+
+$("#BtnMenu").click(function(){
+    
+ })
+ 
